@@ -1,6 +1,6 @@
 {
   "name": "@hlx/ckeditor5-plugins",
-  "version": "31.0.4",
+  "version": "35.3.2",
   "description": "custom ckeditor5 plugins (eg: indent first line, custom format, ad so on...)",
   "scripts": {
     "lint": "eslint --quiet '**/*.js' --fix",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/letsbug/ckeditor5-plugins.git"
+    "url": "git+https://github.com/ducseb/ckeditor5-plugins.git"
   },
   "keywords": [
     "ckeditor5",
@@ -19,22 +19,22 @@
     "custom",
     "format"
   ],
-  "author": "letsbug",
+  "author": "Sebastien De Marchi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/letsbug/ckeditor5-plugins/issues"
+    "url": "https://github.com/ducseb/ckeditor5-plugins/issues"
   },
   "publishConfig": {
     "registry": "http://10.3.196.23:8081/repository/npm-hosted/"
   },
-  "homepage": "https://github.com/letsbug/ckeditor5-plugins#readme",
+  "homepage": "https://github.com/ducseb/ckeditor5-plugins#readme",
   "peerDependencies": {
-    "@ckeditor/ckeditor5-core": "32.0.0",
-    "@ckeditor/ckeditor5-engine": "32.0.0",
-    "@ckeditor/ckeditor5-highlight": "32.0.0",
-    "@ckeditor/ckeditor5-ui": "32.0.0",
-    "@ckeditor/ckeditor5-upload": "32.0.0",
-    "@ckeditor/ckeditor5-utils": "32.0.0"
+    "@ckeditor/ckeditor5-core": "^35.3.2",
+    "@ckeditor/ckeditor5-engine": "^35.3.2",
+    "@ckeditor/ckeditor5-highlight": "^35.3.2",
+    "@ckeditor/ckeditor5-ui": "^35.3.2",
+    "@ckeditor/ckeditor5-upload": "^35.3.2",
+    "@ckeditor/ckeditor5-utils": "^35.3.2"
   },
   "devDependencies": {
     "eslint": "8.10.0",
